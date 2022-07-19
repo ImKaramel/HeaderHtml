@@ -1,21 +1,55 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset = "utf-8"/>
-            <style>
-                table 
-                {
-                    font-family: "Times New Roman";
-                    font-stretch: condensed;
-                    font-size: 18px;
-                    border-collapse: collapse;
-                    width: 100%;
-                }
-            </style>
-            <title>Фоновое изображение с помощью HTML</title>
-            <p></p>
-        </head>
-        <body  onload="start()" bgcolor="#000" background="Фон.png">
-  
-        </body>
-    </html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        table {
+            font-family: "Times New Roman";
+            font-stretch: condensed;
+            font-size: 18px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(resources/Фон2.png);
+            /* Адрес картинки */
+            background-size: 100%;
+            /* Ширина картинки */
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            font-size:12px;
+            display: inline-block;
+            background:  url(resources/sud2.png);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+            padding-right:100px;
+            /* type = "image"; */
+        }
+    </style>
+    <title>Таксапёр</title>
+    <p></p>
+</head>
+<body onload="start()" bgcolor="#000">
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:480px">&nbsp;</p>
+    <p style="margin-left:400px">
+    <!-- <button onclick="document.location='page/new.html'">Переход по ссылке</button> -->
+    <button><a  href="https://github.com/ksurrealism/2dGame/blob/main/SudokuGame.html">SudokuGame </a></button>
+
+        <!-- <img src="resources/sud.png"alt="Выключатель" title="Выключатель" width="40" height="40"> -->
+    <!-- <a  href="https://github.com/ksurrealism/2dGame/blob/main/SudokuGame.html" class="btn">SudokuGame </a> </p> -->
+</body>
+
+</html>
